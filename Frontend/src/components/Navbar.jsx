@@ -45,7 +45,7 @@ function Navbar() {
         : ""}>
           <li className="py-1">Contact</li>  
         </NavLink>
-        <a href="http://localhost:5174" target="_blank" className=" w-25 h-10 flex justify-center items-center pb-1  border border-blue-400 text-lg font-medium rounded-full hover:scale-105 hover:bg-[#5f6FFF] hover:text-white transition-all duration-200 cursor-pointer">Admin</a>
+        <a href="https://merry-meringue-3fa322.netlify.app/" target="_blank" className=" w-25 h-10 flex justify-center items-center pb-1  border border-blue-400 text-lg font-medium rounded-full hover:scale-105 hover:bg-[#5f6FFF] hover:text-white transition-all duration-200 cursor-pointer">Admin</a>
       </ul>
       <div className="flex items-center gap-4">
         {token && userData ? (
@@ -97,7 +97,7 @@ function Navbar() {
             <NavLink className="px-4 py-2 rounded inline-block" onClick={()=>setShowMenu(false)} to='/doctors'>All Doctors</NavLink>
             <NavLink className="px-4 py-2 rounded inline-block" onClick={()=>setShowMenu(false)} to='/about'>About</NavLink>
             <NavLink className="px-4 py-2 rounded inline-block" onClick={()=>setShowMenu(false)} to='/contact'>Contact Us</NavLink>
-            <a href="http://localhost:5174" target="_blank" className="px-4 py-2 rounded inline-block ">Admin</a>
+            <a href="https://merry-meringue-3fa322.netlify.app/" target="_blank" className="px-4 py-2 rounded inline-block ">Admin</a>
           </ul>
         </div>
       </div>
